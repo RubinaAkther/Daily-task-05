@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* *** Header Section Start *** */
+.header-section {
+  width: 100%;
+  height: 80px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+  height: 80px;
+}
+
+.logo {
+  background-image: url('./images/Logo.png');
+  background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16%;
+  height: 80px;
+}
+
+.nav {
+  width: 60%;
+  padding-top: 20px;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav ul li {
+  list-style: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #000;
+  cursor: pointer;
+}
+
+.btn-div {
+  padding-top: 20px;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sign-in-btn {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.login-btn {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(62, 158, 255);
+  padding: 8px 30px;
+  cursor: pointer;
+}
+/* *** Header Section End *** */
+
+/* *** Hero Section Start *** */
+.hero-section {
+  position: relative;
+}
+
+.hero {
+  width: 100%;
+  margin: 0 auto;
+  min-height: 500px;
+  padding-top: 10%;
+  padding-left: 9%;
+  display: flex;
+}
+
+.hero-content {
+  width: 50%;
+  min-height: 500px;
+}
+
+.hero-content h5 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #1f304b;
+  margin-bottom: 4%;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  color: #4f5155;
+  line-height: 4.4rem;
+}
+
+.hero-content p {
+  margin-top: 3%;
+  width: 60%;
+}
+
+.hero-apply-btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: rgb(96, 175, 255);
+  color: white;
+  padding: 10px 25px;
+  margin-top: 6%;
+}
+
+.hero-image {
+  width: 50%;
+  min-height: 560px;
+  background-image: url('./images/image-of-a-girl.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rings {
+  width: 36px;
+  height: 174px;
+  position: absolute;
+  background-image: url('./images/rings.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.square {
+  width: 109px;
+  height: 117px;
+  position: absolute;
+  background-image: url('./images/squares.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 75%;
+}
+
+.triangle {
+  width: 79px;
+  height: 46px;
+  position: absolute;
+  background-image: url('./images/triangle.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 10%;
+  left: 50%;
+}
+
+.pentagone {
+  width: 39px;
+  height: 100px;
+  position: absolute;
+  background-image: url('./images/pentagone.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: 25%;
+  right: 0px;
+}
+
+.circle {
+  width: 76px;
+  height: 100px;
+  position: absolute;
+  background-image: url('./images/circle.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: 68%;
+  right: 0px;
+}
+
+.pattern1 {
+  width: 127px;
+  height: 70px;
+  position: absolute;
+  background-image: url('./images/pic1.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  left: 30%;
+  bottom: 0;
+}
+
+.pattern2 {
+  width: 127px;
+  height: 70px;
+  position: absolute;
+  background-image: url('./images/pic2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  left: 40%;
+  bottom: 0;
+}
+
+.pattern3 {
+  width: 68px;
+  height: 55px;
+  position: absolute;
+  background-image: url('./images/pic3.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  left: 34.5%;
+  bottom: 11%;
+}
+
+.pattern4 {
+  width: 127px;
+  height: 70px;
+  position: absolute;
+  background-image: url('./images/pic4.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  left: 40%;
+  bottom: 11%;
+}
+
+.pattern5 {
+  width: 106px;
+  height: 38px;
+  position: absolute;
+  background-image: url('./images/pic5.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  left: 41.5%;
+  bottom: 22.2%;
+}
+
+/* *** Hero Section End  *** */
